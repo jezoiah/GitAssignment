@@ -3,6 +3,8 @@ public class AnimalTest {
         // Create Animal objects
         Animal dog = new Animal("Buddy", 3, "Dog");
         Animal cat = new Animal("Whiskers", 2, "Cat");
+        Animal bird = new Animal("Polly", 1, "Parrot");
+        // Test animal        
         
         // Test dog
         System.out.println("=== Testing Dog ===");
@@ -19,6 +21,10 @@ public class AnimalTest {
         
         System.out.println();
 
-    
+        System.out.println("=== Testing Cat ===");
+        bird.displayInfo();
+        bird.makeSound();
+        
+        System.out.println();
     }
 }
