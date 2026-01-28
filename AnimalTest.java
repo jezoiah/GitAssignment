@@ -21,7 +21,7 @@ public class AnimalTest {
         
         System.out.println();
 
-        System.out.println("=== Testing Cat ===");
+        System.out.println("=== Testing Parrot ===");
         bird.displayInfo();
         bird.makeSound();
         
