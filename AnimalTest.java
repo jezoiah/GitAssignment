@@ -7,6 +7,9 @@ public class AnimalTest {
         Animal monkey = new Animal("Chimp", 4, "Monkey");
         Animal fish = new Animal("yanyan", 4, "Fish");
         Animal lion = new Animal("cijay", 4, "lion");
+        
+        Animal tiger = new Animal("tiger", 4, "tiger");
+        //Animal ka
 
 
 
