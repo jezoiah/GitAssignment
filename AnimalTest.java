@@ -9,10 +9,10 @@ public class AnimalTest {
         Animal lion = new Animal("cijay", 4, "lion");
         
         Animal tiger = new Animal("tiger", 4, "tiger");
-
+        Animal panda = new Animal("panda", 4, "panda");
         Animal ka = new Animal("ka", 4, "ka");
 
-        
+
         //Animal ka
 
 
