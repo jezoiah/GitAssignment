@@ -4,6 +4,7 @@ public class AnimalTest {
         Animal dog = new Animal("Buddy", 3, "Dog");
         Animal cat = new Animal("Whiskers", 2, "Cat");
         Animal bird = new Animal("Polly", 1, "Parrot");
+        Animal monkey = new Animal("Chimp", 4, "Monkey");
         // Test animal        
         
         // Test dog
