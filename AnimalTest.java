@@ -4,9 +4,7 @@ public class AnimalTest {
         Animal dog = new Animal("Buddy", 3, "Dog");
         Animal cat = new Animal("Whiskers", 2, "Cat");
         Animal bird = new Animal("Polly", 1, "Parrot");
-        Animal monkey = new Animal("Et", 5, "Monkey");
-
-        // Test animal
+        // Test animal        
         
         // Test dog
         System.out.println("=== Testing Dog ===");
@@ -20,16 +18,17 @@ public class AnimalTest {
         System.out.println("=== Testing Cat ===");
         cat.displayInfo();
         cat.makeSound();
-        // Test monkey
-        System.out.println("=== Testing Monkey ===");
-        monkey.displayInfo();
-        monkey.makeSound();
         
         System.out.println();
 
         System.out.println("=== Testing Parrot ===");
         bird.displayInfo();
         bird.makeSound();
+        
+        System.out.println();
+        System.out.println("=== Testing Monkey ===");
+        monkey.displayInfo();
+        monkey.makeSound();
         
         System.out.println();
     }
